@@ -14,8 +14,8 @@ public class NodeMain {
 		
 		// Membuat relasi Node n1 & n2
 	    n1.setNext(n2);
-		n2.setNext(n6);
-		n6.setNext(n5);
+		n2.setNext(n5);
+		n5.setNext(n6);
 	
 		
 		// Menampilkan Node n1 & n2 dengan Pointer p
